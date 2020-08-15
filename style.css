@@ -1,0 +1,62 @@
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;    
+    margin: auto;
+    max-width:50em;
+    border: 6px solid blue;
+    border-style: dotted dashed solid double;
+    text-align: center;
+    padding: 15px;
+    background-image: url(umichMs.gif);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    box-shadow: 10px 10px black;
+    
+}
+/*h1 {
+  background-color: #0D2547;
+  color: goldenrod;
+}
+h2 {
+  background-color: #0D2547;
+  color: goldenrod;
+}*/
+img {
+    height: 300px;
+    border-radius: 10%;
+
+}
+
+.dark{
+    background-image: url(nz.jpg);
+    color: white;
+}
+
+.social a{
+    text-decoration: none;
+    color: white;
+    margin: 20px;
+    padding: 15px;
+}
+
+.about a:link, a:visited {
+  background-color: #f44336;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  animation: blinkingBackground 2s infinite;
+}
+@keyframes blinkingBackground{
+		0%		{ background-color: #ffa114;}
+		25%		{ background-color: #1056c0;}
+		50%		{ background-color: #ff20ec;}
+		75%		{ background-color: #44ffa1ce;}
+		100%	{ background-color: #04a1d5;}
+	}
+
+.about a:hover, a:active {
+  background-color: red;
+}
